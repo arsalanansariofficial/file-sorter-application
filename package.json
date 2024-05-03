@@ -1,0 +1,20 @@
+{
+  "name": "file-sorter",
+  "version": "1.0.0",
+  "description": "Group and Sorts the file according to the Month and Year",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": ".\\public\\index.html && nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\public\\index.html && node ./src/app.js",
+    "production": ".\\public\\index.html && .\\nodejs\\node ./src/app.js"
+  },
+  "author": "Arsalan Ansari",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "exif-parser": "^0.1.12",
+    "express": "^4.18.2"
+  }
+}
